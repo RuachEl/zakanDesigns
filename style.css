@@ -1,0 +1,26 @@
+/* 
+Primary Colors
+#2F1D35 - Purple
+#934C45 - Dark Blush
+#B28E4C - Gold
+#AC8690 - Dark Pink
+#C8C5AA - Dark Cream
+*/
+html {
+    font-family: 'Cinzel', serif;
+}
+.navbar {
+  background-color: #2f1d35;
+  color: white;
+}
+.logoImage {
+  max-height: 3rem;
+}
+.nav-item {
+  font-size: x-large;
+}
+.bg-custom {
+    background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 1rem;
+}
