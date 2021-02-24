@@ -6,8 +6,8 @@ Primary Colors
 #AC8690 - Dark Pink
 #C8C5AA - Dark Cream
 */
-html {
-    font-family: 'Cinzel', serif;
+body {
+  font-family: "Cinzel", serif;
 }
 .navbar {
   background-color: #2f1d35;
@@ -20,7 +20,19 @@ html {
   font-size: x-large;
 }
 .bg-custom {
-    background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   border-radius: 1rem;
+}
+#carousel img {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  max-height: 50rem;
+  object-fit: cover;
+}
+
+.copyright {
+  background-color: #2f1d35;
+  padding: 0;
 }
